@@ -1,0 +1,16 @@
+1.What do I want to learn and understand better?
+We realized during this sprint that our userstories need to be modified a bit due to some being to broad and unspesific. 
+So this is definatly something i would like to improve my understanding of.
+
+2.How can I help someone else, or the entire team, to learn something new?
+Most of the basic HTML/CSS were completed during this sprint so now we get into more technical details and will now enter
+a more technical part of the development process and when we all have different levels of knowledge about possible solutions
+I belive that it will be very important to share and discuss this to broaden everyones knowledge about the subject and open up for 
+possible solutions.
+
+3.What is  my contribution towards the team's use of Scrum
+We have discussed a bit about how we should use our scrumboard and it's layout during this week and therefor we could present 
+our ideas to improve our scrumprocess. We will probably evalute our current scrum system at the next meeting to further streamline this process.
+
+4. What is my contirbution towards the teams' deliveries?
+This week I was part of the team that created the navbar to simplify navigation for our users which was one if this sprints user stories.

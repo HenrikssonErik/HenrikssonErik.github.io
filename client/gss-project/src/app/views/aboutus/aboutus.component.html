@@ -1,0 +1,88 @@
+<div><app-navbar></app-navbar></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column-about">
+        <h1>Om oss</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia
+          sollicitudin neque, a malesuada massa pellentesque sit amet. Fusce non
+          ante tellus. Duis ut tellus lorem. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nam arcu ante, rutrum vitae dolor
+          commodo, posuere placerat magna. Mauris posuere dignissim quam.
+          Aliquam pharetra gravida dictum. Mauris scelerisque dolor et erat
+          consectetur pulvinar. Suspendisse turpis libero, faucibus eget neque
+          vitae, lacinia dignissim nibh. Maecenas vehicula enim et urna congue,
+          quis fringilla nunc accumsan. Nunc ligula justo, molestie tempus velit
+          vel, ullamcorper sodales urna. Aenean dictum justo urna, et hendrerit
+          lectus tempor ac. Nunc dapibus interdum turpis. Nullam non vulputate
+          diam, id pretium enim. Donec blandit lobortis ipsum vitae dignissim.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia
+          sollicitudin neque, a malesuada massa pellentesque sit amet. Fusce non
+          ante tellus.
+        </p>
+        <h1 class="besok">Besök oss</h1>
+        <ul class="list">
+          <li>Måndagar kl 18.30 - 21.00</li>
+          <li>Daniel Petterssons gata 5</li>
+          <li>413 20 Göteborg</li>
+        </ul>
+      </div>
+
+      <div class="column-contact">
+        <h1>Kontaktformulär</h1>
+        <div class="field-obl">
+          <p>Fält markerat med '*' är obligatoriska</p>
+        </div>
+        <form>
+          <label for="name">Namn <span style="color: #ff0000">*</span></label>
+          <input
+            [(ngModel)]="name"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Namn Namnsson"
+            required
+          />
+
+          <label for="email">Mail <span style="color: #ff0000">*</span></label>
+          <input
+            [(ngModel)]="email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Mail"
+            ngModel
+            email="true"
+            required
+          />
+
+          <label for="message">Meddelande</label>
+          <textarea
+            [(ngModel)]="message"
+            type="message"
+            id="message"
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Meddelande..."
+          ></textarea>
+          <input
+            type="submit"
+            id="send-message-cta"
+            value="Skicka"
+            (click)="sendEmail()"
+          />
+        </form>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </body>
+</html>

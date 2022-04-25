@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Dhyana Regular;
+  src: url(Dhyana-Regular.ttf);
+}
+
+h1 {
+  color: #036fa7;
+  font-family: Dhyana Regular;
+}
+
+.field-obl {
+  size: 10px;
+  color: gray;
+  font-family: Dhyana Regular;
+}
+
+.row {
+  width: 100vw;
+  display: flex;
+}
+
+.column-about {
+  padding: 5em;
+  float: left;
+  flex-shrink: 1;
+  flex: 55%;
+  padding-left: 16em;
+}
+
+.column-contact {
+  padding: 5em;
+  flex: 45%;
+  padding-right: 16em;
+}
+
+.besok {
+  margin-top: 1em;
+}
+
+.list {
+  margin-left: -1.8em;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+#send-message-cta {
+  background-color: #036fa7;
+  color: white;
+  border-radius: 5em;
+}
+
+#send-message-cta:hover {
+  background-color: white;
+  color: #036fa7;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}

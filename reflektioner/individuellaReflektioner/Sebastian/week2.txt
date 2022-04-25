@@ -1,0 +1,12 @@
+1.What do I want to learn and understand better?
+
+To get up to speed during the first sprint next week I need to improve my understanding of javaScript and html.
+
+2.How can I help someone else, or the entire team, to learn something new?
+Contribute to the groups knowledge of version control (git) and the programs file structure.
+
+3.What is  my contribution towards the team's use of Scrum
+Contribution to the group discussion of how our process should look for the starting sprint and how our user stories should be structured.
+
+4. What is my contirbution towards the teams' deliveries?
+I have focused on getting up to speed with html, css and javaScript.

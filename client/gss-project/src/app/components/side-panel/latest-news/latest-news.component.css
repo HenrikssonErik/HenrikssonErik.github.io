@@ -1,0 +1,20 @@
+.fifty-chars {
+  width: 30ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card {
+  display: block;
+  text-overflow: ellipsis;
+  margin-left: -2.25em;
+}
+
+.card-text {
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 15em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

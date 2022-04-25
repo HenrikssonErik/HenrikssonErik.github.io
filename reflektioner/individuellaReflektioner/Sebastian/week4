@@ -1,0 +1,17 @@
+1.What do I want to learn and understand better?
+This week we have started to make the site more usable by beginning to integrate admin users that can post information without having to do it in the sourcecode. 
+My role in this process is creating the log-in system and in that process we had to learn a bit about security measures both on front/backend and I will have to continue
+this process next sprint.
+
+2.How can I help someone else, or the entire team, to learn something new?
+At our mid-sprint meeting we ussualy go through what we done so far and what the tehcniques that are used so this is a good place to share information to the rest
+of the team for them to get a basic understanding of it. So next sprint my part in this would probably be focused on sharing my new insights on user security.
+
+
+3.What is  my contribution towards the team's use of Scrum
+I got the feeling that we have imporved our scrum methods a lot compared to the first sprint but one thing that we still miss out on is valuating how much time that is 
+needed on a task. 
+
+4. What is my contirbution towards the teams' deliveries?
+As mentioned in question 1 my contributions this sprint is on the log-in system where we have researched hashingmethods and created a login page. And next sprint
+we will contninue on a "create-account" page and more security.

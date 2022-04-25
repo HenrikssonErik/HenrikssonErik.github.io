@@ -1,0 +1,109 @@
+body {
+  background-color: #036fa7;
+  height: relative;
+  width: 100%;
+  color: white;
+  margin-top: 10em;
+  bottom: 0;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-div {
+  text-align: center;
+  margin-top: -5.8em;
+}
+
+.logo {
+  width: 10em;
+  height: relative;
+}
+
+.row {
+  width: 100vw;
+  padding-left: 5em;
+  padding-right: 5em;
+  display: flex;
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+  flex-wrap: wrap;
+}
+
+.list {
+  margin-left: -1.8em;
+}
+
+#notInUse {
+  text-decoration: line-through;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 200px;
+  text-align: center;
+}
+
+.column-mid {
+  flex-grow: 1;
+  text-align: center;
+  width: 30em;
+}
+
+.column + .column {
+  margin-left: 2%;
+}
+
+iframe {
+  margin-top: 2em;
+}
+
+.h1 {
+  font-weight: bold;
+}
+
+.row .column a {
+  color: white;
+}
+
+.row .column a:hover {
+  color: black;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1080px) {
+  iframe {
+    width: 300px;
+    padding-bottom: 3em;
+  }
+
+  .column:nth-of-type(2) {
+    order: 1;
+    width: 100vw;
+  }
+  .column:nth-of-type(1) {
+    order: 2;
+  }
+
+  .column {
+    flex: 50%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  iframe {
+    width: 300px;
+    padding-bottom: 3em;
+  }
+
+  .column:nth-of-type(1) {
+    order: 1;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .column {
+    flex: 100%;
+  }
+}

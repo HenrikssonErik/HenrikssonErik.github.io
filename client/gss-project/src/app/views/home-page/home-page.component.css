@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.left {
+  width: 75%;
+  float: left;
+  margin-left: 0;
+}
+
+.right {
+  width: 25%;
+  float: right;
+  padding-right: 3%;
+}

@@ -1,0 +1,98 @@
+<body>
+  <div>
+    <app-navbar></app-navbar>
+  </div>
+  <div class="container" id="loginpage">
+    <div class="title">
+      <h1>Logga in</h1>
+      <p>Kom igen det blir kul!</p>
+    </div>
+
+    <div class="form" id="login">
+      <p class="errorMessage" id="error"></p>
+      <form #simpleForm="ngForm" (ngSubmit)="logIn(simpleForm.value)">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            ngModel
+            email
+            name="email"
+            class="form-control"
+            id="email"
+            placeholder="Emailadress"
+          />
+        </div>
+        <div class="form-group">
+          <label for="pwd">Lösenord:</label>
+          <input
+            type="password"
+            ngModel
+            name="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Lösenord"
+          />
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" /> Kom ihåg mig</label>
+        </div>
+        <button type="submit" class="btn btn-default button">Logga in</button>
+      </form>
+      <button class="btn btn-default button" (click)="createAccountPage()">
+        Skapa konto
+      </button>
+    </div>
+  </div>
+
+  <div class="container hideForm" id="registerpage">
+    <div class="title">
+      <h1>Registrera Dig!</h1>
+      <p>Kom igen det blir kul!</p>
+    </div>
+
+    <div class="form" id="login">
+      <form #simpleForm="ngForm" (ngSubmit)="createAccount(simpleForm.value)">
+        <div class="form-group">
+          <label for="text">Namn:</label>
+          <input
+            type="text"
+            ngModel
+            name="name"
+            class="form-control"
+            id="name"
+            placeholder="Namn"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            ngModel
+            name="email"
+            class="form-control"
+            id="email"
+            placeholder="Emailadress"
+          />
+        </div>
+        <div class="form-group">
+          <label for="pwd">Lösenord:</label>
+          <input
+            type="password"
+            ngModel
+            name="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Lösenord"
+          />
+        </div>
+        <button type="submit" class="btn btn-default button">Registrera</button>
+      </form>
+      <button class="btn btn-default button" (click)="loginPage()">
+        Redan registrerad? Logga in
+      </button>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</body>

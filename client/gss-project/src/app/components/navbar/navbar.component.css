@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Della Respira;
+  src: url(DellaRespira-Regular.ttf);
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url(DMSans-Regular.ttf);
+}
+
+body {
+  padding-left: 3em;
+  padding-right: 5em;
+  padding-top: 2em;
+  margin-bottom: 4em;
+}
+
+h1 {
+  font-size: 48;
+  font-family: Della Respira;
+  color: black;
+}
+
+h3 {
+  font-size: 26;
+  font-family: Della Respira;
+  color: #676363;
+}
+
+li /*li är navigation-bar item*/ {
+  background-color: #036fa7;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-color: white;
+  height: 40px;
+}
+
+a {
+  /*Allt med a är inom kategorierna*/
+  font-family: DM Sans;
+  font-size: 48;
+  color: white;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #95c8e5;
+}
+[aria-current]:not([aria-current="false"]) {
+  background-color: #036fa7;
+  text-decoration: underline;
+}
+
+#logo {
+  float: left;
+  margin-right: 2em;
+  width: 9em;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+#first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#last {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#notInUse {
+  background-color: #676363;
+  color: black;
+}
+
+.logo-text {
+  padding-left: 192px;
+  padding-bottom: 1em;
+}
